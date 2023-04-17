@@ -1,6 +1,6 @@
 
 const pages = new Map();
-pages.set('home', { name: 'Home', path: '/', anchorable: true });
+pages.set('home', { name: 'Home', path: '/home', anchorable: true });
 pages.set('about', { name: 'About', path: '/about', anchorable: true });
 pages.set('menu', { name: 'Menu', path: '/menu', anchorable: true });
 pages.set('bookings', { 
@@ -18,6 +18,6 @@ pages.set('orderOnline', {
   path: '/order-online', 
   anchorable: true 
 });
-pages.set('login', { name: 'Login', path: '/login', anchorable: true });
+pages.set('login', { name: 'Login', path: '/', anchorable: true });
 
 export default pages;

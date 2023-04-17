@@ -1,0 +1,76 @@
+
+    
+#main {
+    width: max-content;
+    margin: 50px auto;
+    font-family: "Segoe UI", sans-serif;
+    /* padding: 25px 28px; */
+    /* background: #cadf13; */
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #a2a509;
+    animation: popup 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+form{
+    gap: 0.5rem !important;
+}
+@keyframes popup {
+    0% {
+        transform: scale(0.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+    font-weight: 400;
+    color: black;
+}
+.input-parent {
+    display: block;
+    /* margin-bottom: 20px; */
+}
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #b8bb0f;
+}
+.input-parent input {
+    padding: 0px 8px;
+    width: 100%;
+    font-size: 20px;
+    /* background: #323131; */
+    border: 1px solid grey;
+    /* color: #c7c7c7; */
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+.input-parent input:hover {
+     background: #404040; 
+}
+.input-parent input:focus {
+    box-shadow: 0px 0px 0px 1px #0087ff;
+}
+button {
+    padding: 10px 18px;
+    font-size: 20px;
+    background: #a5cf0c;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: #db0f0f;
+    transition: all 0.2s ease;
+}
+button:hover {
+    opacity: 0.9;
+}
+button:focus {
+    box-shadow: 0px 0px 0px 3px black;
+}

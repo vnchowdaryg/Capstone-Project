@@ -1,0 +1,7 @@
+.menuItems.map(item => (
+    <div key={item.id} style={{ fontSize: '20px' }}>
+      <span>{item.name}</span>
+      <span>{item.price}</span>
+    </div>
+  ))
+  
